@@ -1,0 +1,100 @@
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+    font-family: "Trirong", serif;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper {
+    width: 30%;
+    height: fit-content;
+}
+
+.swiper-slide img {
+    width: 100%;
+    border-radius: 1%;
+}
+
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev {
+    color: #000000;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 60%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+form h4 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+form input {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #ffffff;
+    font-size: 16px;
+}
+
+form select {
+    border-radius: 10px;
+    padding: 15px;
+    background: #ffffff;
+    color: #000000;
+    font-size: 18px;
+    border: 0;
+    width: 150px;
+    margin: 20px auto 0;
+    box-shadow: 2px 5px 5px rgb(0 0 0 / 20%);
+}
+
+form button {
+    border-radius: 10px;
+    padding: 15px;
+    background: #ffffff;
+    color: #000000;
+    font-size: 18px;
+    border: 0;
+    width: 150px;
+    margin: 20px auto 0;
+    box-shadow: 2px 5px 5px rgb(0 0 0 / 20%);
+}
+
+button:hover {
+    background: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
